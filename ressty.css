@@ -1,0 +1,38 @@
+
+body{
+    background-color: #112D4E;
+}
+/* Style the container */
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #112D4E;
+    border-radius:0px;
+    text-align: justify;
+}
+
+/* Style headings */
+h2 {
+    color: red;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(178, 178, 194);
+}
+
+/* Style list items */
+ul {
+    list-style:disk;
+    line-height: 3;
+    margin-left: 20px;
+    color: rgb(30, 189, 30);
+}
+
+/* Add some spacing between elements */
+.container>* {
+    margin-bottom: 0px;
+}
